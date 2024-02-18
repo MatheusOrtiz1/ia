@@ -1,0 +1,195 @@
+table tr {
+	padding-left: 5px !important;
+}
+
+.row-gray {
+	background: #E2DCDE !important;
+}
+
+.row-blue {
+	background: #DBE8F7 !important;
+}
+
+.btn-thin {
+    height: 20px !important;
+    line-height: 20px !important;
+    width: 60px !important;
+    font-size: 12px !important;
+    padding: 2px !important;
+    padding-top: 0px !important;
+}
+
+.tab-container {
+    padding: 0 !important;
+    margin: 0 !important;
+	margin-bottom: -2 px;
+	display: flex !important;
+    flex-direction: column !important;
+    align-items: left !important;
+}
+
+.tabs {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tab {
+    cursor: pointer !important;
+    padding: 5px !important;
+    margin: 0px !important;
+    background: #e3b420 !important;
+    display: inline-block !important;
+    color: #ffffff !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: black !important;
+    border-radius: 5px 5px 0px 0px !important;
+    border-bottom: none !important;
+  	text-decoration: none !important;
+}
+
+.tab-checked {
+    cursor: no-drop !important;
+    padding: 5px !important;
+    margin: 0px !important;
+    background: gray !important;
+    display: inline-block !important;
+    color: white !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: black !important;
+    border-radius: 5px 5px 0px 0px !important;
+  	text-decoration: none !important;
+}
+
+#searchDataPanel {
+	border-top-left-radius: 0px !important;
+}
+
+.toolbar-panel {
+	border: none !important;
+	background: none !important;
+	box-shadow: none !important;
+}
+
+.btn-panel {
+  	float: left;
+  	padding: 0px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+	border-radius: 2px;
+	margin-left: 2px;
+	overflow: hidden;
+    margin-top: -4px !important;
+}
+
+.btn-icon {
+    height: 24px !important;
+    line-height: 20px !important;
+    padding: 0 !important;
+    padding-top: -5px !important;
+}
+
+.tooltip {
+    border: 1px solid gray;
+    border-radius: 3px;
+    position:absolute;
+    color: black;
+    top: 19px;
+    left: 30px;
+    background-color: yellow;
+}
+
+.wrapText {
+    width: 55%;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+label.mandatory span{
+    color: red;
+    font-weight: bold;
+}
+
+.dataTables_top {
+    width: 100% !important;
+	border: 1px solid gray;
+	border-radius: 3px;
+	color: white;
+	background-color: #C0C0C0;
+	margin: 15 !important;
+	padding: 5px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataTables_top .dataTables_length {
+    align-items: start;
+    color: black;
+}
+
+.dataTables_top .dataTables_filter {
+    align-items: end;
+    color: black;
+}
+
+.dataTables_bottom {
+    width: 100% !important;
+	border: 1px solid gray;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: white;
+	background-color: #f0ea99;
+	margin: 15 !important;
+	padding: 5px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataTables_bottom .dataTables_info {
+    align-items: start;
+    color: black;
+}
+
+.dataTables_bottom .dataTables_paginate {
+    align-items: end;
+    color: black;
+}
+
+.dataTables_bottom .dataTables_paginate .paginate_button {
+	padding-left: 30px;
+}
+
+.dataBrowse tr { 
+	height: 30px !important; 
+}
+
+.row-icons-panel {
+  	float: right;
+	margin: 2px !important;
+	overflow: hidden;
+	margin-left: 10px !important;
+}
+
+.row-btn-panel {
+  	float: left;
+  	padding: 0px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+	border-radius: 2px;
+	margin-left: 2px;
+	overflow: hidden;
+}
+
+.row-btn-icon {
+    height: 24px !important;
+    line-height: 26px !important;
+    padding: 0 !important;
+}

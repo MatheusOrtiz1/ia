@@ -1,0 +1,105 @@
+td.details-control {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACjElEQVR4Aa2V30uTURjHnVBUgglCaXVTJJVLMdhQm7+1JEvJiKAggmgSQiKJl0V0E13UVf0HQZmBLcvlpqa55tqV0YoMzIhY6js0yDH11X17vuO8Sq5Zgl/48DznPD/G63nOMSmBkoUNwhYhTUgn9NUeY8z5p0wqOVXYKRwQLMJhhYV7Kpaqck2rNdskbBPMdrv9osfjcQaDwW/RaHSR0OceY8xhrqox/a3ZZmGHkO9wOB7ouj6PBGKMOcxlzcqmdDYKGZmZmSWjo6PvIYosRuDWXGj50IwTb4+hxleN5sAVvJh4jvBCGBRzWSO121UPk3EAaUKuz+d7ycTp+Wnc/nwL1d4qHBVidmjZv/npBkJzGiiv19vFWmGrcVDsvKupqeky/056VMf1j9dQOViBKo9Aa/ixdbnYcrQGWsBc1jQ2NtrZQ/VKShHM8kvdEPVN9qJsoBRl/aUoHyiJ+UpcCxJTtmfCDYoHJT2yYyOlPtcaCoUmGGwdbkVRbxGK+2y0gg2GisUvNmJCy/BVUJqm/eBIxXqpgbUtiBise12HQlc+ClwFSKRCiZH6wXpQs7OzETWn6XENa/trYemywuK0IpGsTotgRU3fcVBzouWG6pOnpqY0BhuGGpDXeUjIW7JKcfuX3tjjP9k4FBkZN4PtY+042JGzzNMcGDJ35C7tmcU++tJmjE63OpSUuLEJ62GcfXUO+59kr8rJnlOY0WfAGtYaY/PHYPv9fhdEY7++4nz/BWS17UPWY0Es2avWp3vOYOTnCCheBtaqHskJr95kZBL3AvdR2XkEex5mYbdQ+qwCd97dRTAcXHn1Moyrt16PA2tN//V8jY+Pf4cS/VWerzU9sDay1gd2Xf4F/AZqlpeB9836LwAAAABJRU5ErkJggg==') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACdUlEQVR4Aa2V30tTYRjHVSgsoQKhXPUPlKZMlImiIIg/pggiiDeCBAdqyC4Kf9zVhVdeelX33QnCbtYvxZsxxkoqKxiz1SzdFudMb5xO5/bt+fa+sPCw3IVf+PA+532e5ytn53lfK0qoSrggXBauCbUKxtxjjjVnq1IXXxFuCXeEFqGdMOYec6zRtZX/M6sWrgv1hmHcDwQCLxOJxM9CoZAnjLnHHGt0bbXdVG1cEm4KLp/P9yKXyx2jhJhjDWvZc9qUwUWhzuFwdMVisc8QFQ4PcbCygvT0NJLDw0gNDSH96DEyfj8KmQwo1rJHem8oD2VapX/sxlAo9Aqi/N4e9hYWsDMwgARxD2DH7ZZYren5eZxYFqhgMOhnr3BVeSnn216v98Hf3yqXg/X0CX719YFs9/WquJfPGtkzZ2fBWvZ4PB6DHtqrokaol7/0GqLM2hq2enpsxMmpvf3VVVD8UOJxV42Uet1Wy7J+M5mam8P37u6ySM7MgDJNM8mRUl5qYDtOREz+GB3FZlcXNjs7UUrMk/jYGKhsNnuo57TWZhgTw0hHO0EpRdpV/tvICKgjUdFQv/Lu7q7JZHxqCl9dLqGtSJtL4VJ80Wvc8xD2V9YfRUbmLZPp5WVstLTYaSWt+lmt1tISKH5Q/VFqbGOTl6GNTk7iQ3Oz4FSrU8UfuTqdBJHxceQz+2APe/8Zm+Jgh8PhNxBlt7YQNQysNzVivbEJ7wXGiiZEJiZwEI2C4mFgr/aoKnn0jk0TiWfPsTE4iHcN9xBuaMCn/n5sLy7iKJk8ffTqikfvfC4H9laWdX2lUqltaDEu9/o664LtIOVfsOf4L+APb5yaiwyN8+8AAAAASUVORK5CYII=') no-repeat center center;
+}
+
+.row-yellow {
+    background-color: yellow;
+}
+
+.fc-title {
+    white-space: normal !important;
+}
+
+.fc-content {
+    white-space: normal !important;
+}
+.tag-max-width{
+    max-width: 100% !important;
+    width: 100% !important;
+    max-height: 35px !important;
+    text-align: left !important;
+}
+.tag-text{
+	padding-right: 25px !important;
+}
+.tag-text, .tag-gray{
+    max-width: 100% !important;
+    width: 100% !important;
+	max-height: 25px !important;
+	text-align: left !important;
+}
+.fluig-style-guide .bootstrap-tagsinput{
+	max-height: 35px !important;
+}
+.fluig-style-guide .bootstrap-tagsinput .tag [data-role=remove]{
+	margin-top:-15px !important;
+}
+.row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.fluig-style-guide td {
+    font-size: 12px !important;
+}
+
+.fluig-style-guide input.form-control {
+    padding: 2px !important;
+    height: 30px !important;
+}
+
+.fluig-style-guide select.form-control {
+    padding: 2px !important;
+    height: 30px !important;
+}
+
+.tab-content {
+    padding: 1px !important;
+}
+
+.container-fluid {
+    padding: 1px !important;
+}
+
+.modal-body {
+    padding: 5px !important;
+}
+
+.bpm-mobile-trash-column {
+    padding: 0px !important;
+}
+
+select[readonly] {
+    background: #eee;
+    pointer-events: none;
+    touch-action: none;
+}
+
+.alert-form {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 5px !important;
+    padding-left: calc(64px + 16px);
+    border: none;
+    border-radius: 4px;
+    font-size: 12px !important;
+}
+.fluig-style-guide .table-datatable{
+    word-break: inherit !important;
+    white-space: normal !important;
+}
+.fluig-style-guide .container{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+.fluig-style-guide .table>tbody>tr>td, .fluig-style-guide .table>tbody>tr>th, .fluig-style-guide .table>tfoot>tr>td, .fluig-style-guide .table>tfoot>tr>th, .fluig-style-guide .table>thead>tr>td, .fluig-style-guide .table>thead>tr>th{
+    padding: 4px !important;
+}
+.w230{
+    min-width: 230px !important;
+}
